@@ -26,15 +26,19 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/factory-utils"
            groups="minilayout" remote="cros" />
 
-  <project path="src/scripts" name="coreos/scripts"
+  <project path="src/scripts" name="eiencore/scripts"
            groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
            name="coreos/portage-stable"
            groups="minilayout" />
   <project path="src/third_party/coreos-overlay"
-           name="coreos/coreos-overlay"
+           name="eiencore/coreos-overlay"
            groups="minilayout" />
+  <project path="src/third_party/tlp-portage"
+           name="dywisor/tlp-portage"
+           groups="minilayout"
+           revision="refs/heads/maint" />
 
   <project path="src/third_party/efunctions"
            name="coreos/efunctions"
