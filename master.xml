@@ -36,7 +36,7 @@ Your sources have been sync'd successfully.
            name="eiencore/coreos-overlay"
            groups="minilayout" />
   <project path="src/third_party/tlp-portage"
-           name="dywisor/tlp-portage"
+           name="eiencore/tlp-portage"
            groups="minilayout"
            revision="refs/heads/maint" />
 
