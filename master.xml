@@ -29,6 +29,9 @@ Your sources have been sync'd successfully.
   <project path="src/scripts"
            name="coreos/scripts"
            groups="minilayout" />
+  <project path="src/third_party/portage-stable"
+           name="coreos/portage-stable"
+           groups="minilayout" />
 
   <project path="src/third_party/eiencore-overlay"
            name="eiencore/eiencore-overlay"
