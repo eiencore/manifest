@@ -33,7 +33,7 @@ Your sources have been sync'd successfully.
            name="coreos/portage-stable"
            groups="minilayout" />
 
-  <project path="src/third_party/eiencore-overlay"
+  <project path="src/third_party/coreos-overlay"
            name="eiencore/eiencore-overlay"
            groups="minilayout" />
 </manifest>
