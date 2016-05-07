@@ -8,10 +8,6 @@
 Your sources have been sync'd successfully.
   </notice>
 
-  <project path="manifest" name="eiencore/manifest" groups="minilayout" >
-    <copyfile src="post-checkout" dest=".repo/manifests.git/hooks/post-checkout" />
-  </project>
-
   <project path="src/repohooks" name="chromiumos/repohooks"
            groups="minilayout" remote="cros" />
   <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
