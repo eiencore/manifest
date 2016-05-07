@@ -8,8 +8,6 @@
 Your sources have been sync'd successfully.
   </notice>
 
-  <copyfile src="__init__.py" dest="__init__.py" />
-
   <project path="src/repohooks" name="chromiumos/repohooks"
            groups="minilayout" remote="cros" />
   <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
@@ -27,6 +25,10 @@ Your sources have been sync'd successfully.
   <project path="src/platform/factory-utils"
            name="chromiumos/platform/factory-utils"
            groups="minilayout" remote="cros" />
+
+  <project path="chromite" name="eiencore/manifest" groups="minilayout" >
+    <copyfile src="__init__.py" dest="chromite/scripts/__init__.py" />
+  </project>
 
   <project path="src/scripts"
            name="coreos/scripts"
