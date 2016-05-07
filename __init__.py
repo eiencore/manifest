@@ -1,2 +1,5 @@
+import os
 import urllib
-urllib.urlretrieve("https://stable.release.core-os.net/amd64-usr/current/version.txt", ".repo/manifests/version.txt")
+
+if os.path.isdir(".repo/manifests"):
+    urllib.urlretrieve("https://stable.release.core-os.net/amd64-usr/current/version.txt", ".repo/manifests/version.txt")
