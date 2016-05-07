@@ -1,2 +1,3 @@
+COREOS_VERSION_ID=current
 COREOS_SDK_VERSION=master
 eval $(curl https://stable.release.core-os.net/amd64-usr/current/version.txt) _=_
